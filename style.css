@@ -1,0 +1,11 @@
+#container {
+  display: grid; /* Using CSS Grid as per the implicit requirement of controlling rows and columns */
+  width: 960px; /* Fixed width for the sketch pad */
+  height: 960px; /* Fixed height for the sketch pad */
+  border: 1px solid black;
+  margin: 20px auto; /* Center the container */
+}
+
+.grid-square {
+  background-color: white;
+}
